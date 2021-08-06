@@ -1,0 +1,219 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.block {
+    margin: 0 auto;
+    margin-bottom: 72px;
+    width: 1200px;
+}
+
+.block ul {
+    margin-top: 24px;
+}
+
+.block h2{
+    font-size: 32px;
+    border-bottom: #000000 2px solid;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+}
+
+.block h2 span {
+    font-size: 24px;
+    color: #A00404;
+    margin-left: 16px;
+}
+
+.title {
+    padding-top: 37px;
+    margin-bottom: 48px;
+}
+
+.title h1 {
+    text-align: left;
+    font: normal normal normal 80px/106px Roboto;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    border-bottom: #000000 2px solid;
+    margin-bottom: 51px;
+}
+
+.title img {
+    width: 324px;
+    height: 324px;
+}
+
+.profile li {
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.education li {
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+.skill {
+    background-color: #415165;
+    color: #FFFFFF;
+    padding-top: 24px;
+    padding-bottom: 36px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 72px;
+}
+
+.skill h2 {
+    width: 996px;
+    font-size: 32px;
+    line-height: 1.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: #FFFFFF 2px solid;
+}
+
+.skill h2 span{
+    font-size: 24px;
+    margin-left: 16px;
+}
+
+.skill ul {
+    margin-top: 45px;
+    border-left: #FFFFFF 2px solid;
+    padding-left: 20px;
+}
+
+.skill ul li {
+    font: normal normal 300 24px/36px Roboto;
+    line-height: 1.5;
+}
+
+.work ul {
+    margin-left: 28px;
+    padding-left: 20px;
+    border-left: lightgray 1px solid;
+}
+
+.work ul li {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.work ul li img {
+    width: 90px;
+    height: 90px;
+    display: block;
+}
+
+.work ul li p {
+    font: normal normal normal 20px/30px Noto Sans;
+    width: 642px;
+}
+
+.work .more-margin {
+    margin-top: 24px;
+}
+
+.contact {
+    background-color: #415165;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 36px;
+}
+
+.contact h2 {
+    font-size: 32px;
+    line-height: 1.5;
+    border-bottom: #FFFFFF 2px solid;
+    width: 996px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact h2 span {
+    font-size: 24px;
+    margin-left: 16px;
+}
+
+.contact ul {
+    margin-top: 46px;
+}
+
+.contact li {
+    font: normal normal 300 24px/36px Roboto;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.contact li a {
+    margin-right: 24px;
+    width: 48px;
+    height: 48px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.contact li a img{
+    width: 48px;
+    height: 48px;
+}
